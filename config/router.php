@@ -6,6 +6,8 @@ require_once (__DIR__ . "/db.php");
 // Cette partie extrait uniquement le chemin de l'URL (sans les paramètres GET ou les fragments)
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 echo $uri . "<br>";
+
+// changer les données misent dans str_replace selon ce que vous trouvez dans le premier echo de $uri
 $uri = str_replace('/EvalPhp', '', $uri);
 echo $uri . "<br>";
 
