@@ -1,0 +1,39 @@
+.myBody{
+    background-image: url(../img/bg.jpeg);
+    min-height: 820px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #3f0060;
+    text-align: center;
+    padding: 20px;
+}
+.imgLogo{
+    width: 60px;
+}
+nav, .myFooter{
+    background-color: rgba(0, 168, 129, 0.7);
+}
+.colorPurpel{
+    background-color: #3f0060;
+    color: white;
+}
+
+.colorPink{
+    background-color: rgb(238, 133, 187);
+    color: rgb(23, 23, 23);
+}
+
+.colorGreen {
+    background-color: rgb(148, 245, 103);
+    color: rgb(23, 23, 23);
+}
+
+.colorYellow {
+    background-color: rgb(246, 249, 74);
+    color: rgb(23, 23, 23);
+}
+
+.colorRed {
+    background-color: rgb(252, 52, 52);
+    color: rgb(23, 23, 23);
+}
